@@ -11,7 +11,7 @@ This repository contains MATLAB source code for the project: "Predicting Neoadju
 The general workflow is as follows:
 
 <p align="center"> 
-   <img src="https://github.com/timothyfisherphd/NAC_Image_Analysis/blob/master/Small_NAC_Pipeline.png" align="center"
+   <img src="https://github.com/timothyfisherphd/NAC_Image_Analysis/blob/master/Small_NAC_Pipeline.png" align="center">
 
 
 ### Part 1: Tile-Level Classifer (A-F)
