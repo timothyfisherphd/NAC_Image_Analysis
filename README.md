@@ -10,7 +10,7 @@ This repository contains MATLAB source code for the project: "Predicting Neoadju
 
 The general workflow is as follows:
 
-![alt text] (https://github.com/timothyfisherphd/NAC_Image_Analysis/blob/master/Small_NAC_Pipeline.png)
+![plot] (https://github.com/timothyfisherphd/NAC_Image_Analysis/blob/master/Small_NAC_Pipeline.png)
 
 ### Part 1: Tile-Level Classifer
 1. Use *'main_01_texture_features.m'* to create a feature vector for a given set of training images. Then, manually change *'subroutines/load_testure_feature_dataset.m'* and specify the filename of the feature vector for further use.
