@@ -13,11 +13,12 @@ The general workflow is as follows:
 <p align="center"> 
    <img src="https://github.com/timothyfisherphd/NAC_Image_Analysis/blob/master/Small_NAC_Pipeline.png" align="center"
 
-### Part 1: Tile-Level Classifer
+
+### Part 1: Tile-Level Classifer (A-F)
 1. Use *'main_01_texture_features.m'* to create a feature vector for a given set of training images. Then, manually change *'subroutines/load_testure_feature_dataset.m'* and specify the filename of the feature vector for further use.
 2. Use *'main_02_trainClassifier.m'* to train a classifier. Then, manually change 'classifierFolder' and 'classifierName' in *'main_deploy_classifier_fractal.m'* to specify which classifier should be used.
 3. Use *'main_03_deploy_classifier.m'* to apply this classifier to unknown images. These images are typically located in *'./test_cases'*.
-### Part 2: Patient-Level Classifier
+### Part 2: Patient-Level Classifier (G-K) - Code still in development
 4. Use *'main_04_spatial_features.m'* to apply this classifier to a classification map with predict values.  Then, manually change *'subroutines/load_spatial_feature_dataset.m'* and specify the filename of the feature vector for further use.
 5. Use *'main_05_trainClassifier.m'* to train a classifier for neoadjuvant chemotherapy response.
 6. *'main_06_deploy_classifier.m'* to apply this classifier to unknown images. 
