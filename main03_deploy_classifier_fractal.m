@@ -58,12 +58,12 @@ cnst.noOverheat = true;
     load_feature_dataset(cnst.featureType,cnst.FeatureDataSource);
 
 % load classifier: manually change code if classifier is changed!
-classifierFolder ='/media/tfisher1995/TIM_FILES/Research/code/linux/matlab/full_slide_classifier/output/UID_79732/'; % 'UID_79732'; % classifier unique ID (UID) for "best5"
-classifierName = 'UID_79732-row_4-MaxClass_13-Feat_all6-Data_PRIMARY-Classif_rbfSVM-CLASSIFIER';
+classifierFolder ='output/UID_16867/'; % 'UID_79732'; % classifier unique ID (UID) for "best5"
+classifierName = 'UID_16867-row_4-MaxClass_39-Feat_all6-Data_PRIMARY-Classif_rbfSVM-CLASSIFIER';
 load([classifierFolder,'/',classifierName,'.mat']);
 
 % iterate through images and apply classifier tile-wise
-for curr_imname =  {'/media/tfisher1995/TIM_FILES/Research/code/matlab_tile/01_TUMOR/CASE 1  L1 - 2019-11-14 16.20.30_Tumor14.jpg'}; 
+for curr_imname =  {'/media/tfisher1995/TIM_FILES/Research/code/FSC/Classifier_1/all_annotation/matlab_tile/01_TUMOR/CASE 1  L1 - 2019-11-14 16.20.30_Tumor14.jpg'}; 
     % specify one or more larger image file names as a cell array of
     % strings
 
