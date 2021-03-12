@@ -2,7 +2,8 @@
 - Author: Timothy Fisher
 - PI: Dr. Jun Kong and Dr. Ritu Aneja
 - Mentor: Dr. Hogxiao Li and Dr. Sergey Klimov
-- Collaborators: Dr. Jayashree Krishnamurthy and Dr. Rekha TS
+- Deep Learning Collaborators: Dr. Anand Raj Ulle and Dr. Shivamurthy P.M. CS&E
+- Pathologist Collaborators: Dr. Jayashree Krishnamurthy and Dr. Rekha TS
 
 ## Introduction
 This repository contains MATLAB source code for the project: "Predicting Neoadjuvant Chemotherapy Response in Triple Negative Breast Cancer (TNBC) using Machine Learning". Using this code, you can train a classifier with sample images of histological textures and apply this classifier to other histological images. A trained classifier is already included and can be applied to H&E images of triple negative breast cancer (40x magnification).  This method is capable of classifying more than mutiple tissue categories. In our paper, we investigated the classification of sixteen tissue categories. The second classifier you can train a histological heatmap based on the predict values of each tile to train a classifer with spatial calculations. A trained classifer will be able to classify whole slide images to predict neoadjuvant chemotherapy response in TNBC. 
