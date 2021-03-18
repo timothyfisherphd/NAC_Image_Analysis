@@ -25,8 +25,8 @@ total_contours = total_contours(~[total_contours.isdir] & ~strncmpi('.', {total_
 
 
 % % Call pyenv outside loop.
-% py_path = '/home/tfisher1995/opEnv/bin/python';
-% pe = pyenv('Version', py_path);
+py_path = '/home/tfisher1995/opEnv/bin/python';
+pe = pyenv('Version', py_path);
 
 % Create variables
 level = 0; % Level for openslide highest resolution
