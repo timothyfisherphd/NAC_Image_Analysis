@@ -1,3 +1,20 @@
+%{
+
+Author: Timothy Fisher
+
+Source: Jakob Nikola, Andrew Janowczyk, Sergey Klimov, Mathworks
+
+Description: This script reads all texture images and computes a feature vector for each one of them.
+
+Input: QuPath Tiles of Annotated Area (Maximum Size is 1000 x 1000 tiles)
+
+Output: Texture Features (all6 = 80 features)
+
+Usage: Write in more details.
+    load('features.mat')columns2
+
+%} 
+
 %% Step 0:  Clean up session.
 % restoredefaultpath
 % rehash toolboxcache
