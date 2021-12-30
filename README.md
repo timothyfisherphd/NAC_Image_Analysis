@@ -2,7 +2,6 @@
 - Author: Timothy Fisher
 - PI: Dr. Jun Kong and Dr. Ritu Aneja
 - Mentor: Dr. Hogxiao Li and Dr. Sergey Klimov
-- Deep Learning Collaborators: Dr. Anand Raj Ulle and Dr. Shivamurthy P.M. CS&E
 - Pathologist Collaborators: Dr. Jayashree Krishnamurthy and Dr. Rekha TS
 
 ## Introduction
